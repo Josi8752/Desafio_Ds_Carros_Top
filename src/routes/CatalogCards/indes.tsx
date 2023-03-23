@@ -1,27 +1,26 @@
 import './styles.css';
-import carImg from '../../assets/car.png';
 import Header from '../../components/Header';
+import TitleSectionOne from '../../components/TitleSectionOne';
+import SectionCardsTwo from '../../components/SectionCardsTwo';
+import SectionCardsOne from '../../components/SectionCardsOne';
 export default function CatalogCards() {
     return (
         <>
-        <Header/>
+            <Header />
             <main>
-                <section id='section-cards-one'>
+                <section id='section-cards-one container'>
+                    <TitleSectionOne />
                     <div className='card-one'>
-                        <h2>Venha nos visitar</h2>
-                        <div>
-                            <div>
-                                <img src={carImg} alt="Carro" />
-                                <p>Lorem ipsum dolor</p>
-                            </div>
-                        </div>
+                        <SectionCardsOne />
+                        <SectionCardsOne />
+                       
                     </div>
                 </section>
-                <section id='section-cards-two'>
-                    <h3>O que estão dizendo</h3>
-                    <div className="card-two">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae harum voluptatem ad fugit id distinctio.</p>
+                <section id='section-cards-two container'>
+                    <div className='card-two'>
+                        <SectionCardsTwo />
                     </div>
+
                 </section>
             </main>
             <footer>
