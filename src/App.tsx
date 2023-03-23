@@ -1,10 +1,11 @@
+import CatalogCards from "./routes/CatalogCards/indes"
 
 
-function App() {
+export default function App() {
 
   return (
-   <h1>Começo</h1>
+   <CatalogCards/>
   )
 }
 
-export default App
+
