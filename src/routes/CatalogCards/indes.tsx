@@ -15,14 +15,7 @@ export default function CatalogCards() {
                     <div className='card-one container'>
                         <SectionCardsOne />
                         <SectionCardsOne />
-                        <SectionCardsOne />
-                        <SectionCardsOne />
-                        <SectionCardsOne />
-                        <SectionCardsOne />
-                        <SectionCardsOne />
-                        <SectionCardsOne />
-                        <SectionCardsOne />
-                        <SectionCardsOne />
+                    
                         
                     </div>
                 </section>
