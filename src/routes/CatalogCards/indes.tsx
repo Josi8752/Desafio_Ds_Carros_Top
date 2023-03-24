@@ -8,9 +8,9 @@ export default function CatalogCards() {
         <>
             <Header />
             <main>
-                <section id='section-cards-one container'>
+                <section id='section-cards-one '>
                     <TitleSectionOne />
-                    <div className='card-one'>
+                    <div className='card-one container'>
                         <SectionCardsOne />
                         <SectionCardsOne />
                        

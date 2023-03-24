@@ -6,10 +6,8 @@ export default function SectionCardsOne() {
             <div>
                 <img src={carImg} alt="Carro" />
             </div>
-            <div className='sectionCardsOne-lorem'>
-                <p>Lorem ipsum dolor</p>
-            </div>
 
+            <p >Lorem ipsum dolor</p>
         </div>
     );
 }
