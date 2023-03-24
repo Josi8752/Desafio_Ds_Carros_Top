@@ -6,5 +6,23 @@
 }
 
 .card-two{
+    display: grid;
     background-color: var(--color-bg-terciary);
+    grid-gap: 20px;
+    grid-template-columns: repeat(280px, 1fr);
+    padding: 20px;
+   
+   
+}
+@media (min-width:576px) {
+    .card-two{
+        padding: 25px;
+    }
+}
+
+.container-cards-two{
+    align-items: center;
+    color: var(--color-font-terciary);
+    font-size: 16px;
+    font-weight: 400; 
 }

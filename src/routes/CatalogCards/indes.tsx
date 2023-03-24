@@ -3,6 +3,7 @@ import Header from '../../components/Header';
 import TitleSectionOne from '../../components/TitleSectionOne';
 import SectionCardsTwo from '../../components/SectionCardsTwo';
 import SectionCardsOne from '../../components/SectionCardsOne';
+import TitleSectionTwo from '../../components/TitleSectionTwo';
 export default function CatalogCards() {
     return (
         <>
@@ -16,9 +17,17 @@ export default function CatalogCards() {
                        
                     </div>
                 </section>
-                <section id='section-cards-two container'>
-                    <div className='card-two'>
+                <section id='section-cards-two'>
+                    <div className='card-two container'>
+                        <TitleSectionTwo/>
+                        <div className='container-cards-two'>
                         <SectionCardsTwo />
+                        <SectionCardsTwo />
+                        <SectionCardsTwo />
+                        <SectionCardsTwo />
+                        <SectionCardsTwo />
+                        </div>
+                      
                     </div>
 
                 </section>
