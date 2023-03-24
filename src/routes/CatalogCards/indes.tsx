@@ -15,22 +15,28 @@ export default function CatalogCards() {
                     <div className='card-one container'>
                         <SectionCardsOne />
                         <SectionCardsOne />
-
+                        <SectionCardsOne />
+                        <SectionCardsOne />
+                        <SectionCardsOne />
+                        <SectionCardsOne />
+                        <SectionCardsOne />
+                        <SectionCardsOne />
+                        <SectionCardsOne />
+                        <SectionCardsOne />
+                        
                     </div>
                 </section>
                 <section id='section-cards-two'>
-                    <div className='card-two container'>
+                    <div className='card-two'>
                         <TitleSectionTwo />
-                        <div className='container-cards-two'>
+                        <div className='container-cards-two container'>
                             <SectionCardsTwo />
                             <SectionCardsTwo />
                             <SectionCardsTwo />
                             <SectionCardsTwo />
                             <SectionCardsTwo />
                         </div>
-
                     </div>
-
                 </section>
             </main>
             <footer>
