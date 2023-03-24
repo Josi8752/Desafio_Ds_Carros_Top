@@ -27,12 +27,15 @@ a, a:hover {
 html, body {
   background-color: var(--color-bg-secundary);
 }
-main{
-  align-items: center; 
+
+main {
+  align-items: center;
 }
 
 footer {
+  height: 120px;
   background-color: var(--color-bg-primary);
+
 }
 
 .container {
@@ -40,4 +43,3 @@ footer {
   max-width: 960px;
   margin: 0 auto;
 }
-

@@ -6,8 +6,6 @@ export default function TitleSectionOne() {
         <div className='title-section-one'>
             <h2>Venha nos visitar</h2>
         </div>
-
-
     );
 
 }
